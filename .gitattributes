@@ -1,2 +1,7 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+gcc-arm-none-eabi-8-2019-q3-update.tar.xz filter=lfs diff=lfs merge=lfs -text
+gcc-linaro-7.2.1-2017.11-x86_64_arm-linux-gnueabi.tar.xz filter=lfs diff=lfs merge=lfs -text
+nds32le-linux-glibc-v5d.tar.xz filter=lfs diff=lfs merge=lfs -text
+riscv64-glibc-gcc-thead_20200702.tar.xz filter=lfs diff=lfs merge=lfs -text
+riscv64-linux-x86_64-20200528.tar.xz filter=lfs diff=lfs merge=lfs -text
